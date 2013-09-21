@@ -1,0 +1,11 @@
+Build.PL
+Changes
+lib/Digest/xxHash.pm
+lib/Digest/xxHash.xs
+LICENSE
+MANIFEST			This list of files
+META.json
+META.yml
+src/xxhash.h
+t/001_basic.t
+xxHash.xs
