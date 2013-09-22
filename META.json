@@ -1,7 +1,7 @@
 {
    "abstract" : "xxHash Implementation For Perl",
    "author" : [
-      "Sanko Robinson C<< <sanko@cpan.org> >>"
+      "Sanko Robinson <sanko@cpan.org>"
    ],
    "dynamic_config" : 1,
    "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132510",
@@ -29,14 +29,20 @@
    "provides" : {
       "Digest::xxHash" : {
          "file" : "lib/Digest/xxHash.pm",
-         "version" : "0.99"
+         "version" : "1.00"
       }
    },
    "release_status" : "stable",
    "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/sanko/digest-xxhash/issues"
+      },
       "license" : [
          "http://www.opensource.org/licenses/bsd-license.php"
-      ]
+      ],
+      "repository" : {
+         "url" : "https://github.com/sanko/digest-xxhash"
+      }
    },
-   "version" : "0.99"
+   "version" : "1.00"
 }

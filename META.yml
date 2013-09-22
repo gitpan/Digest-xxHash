@@ -1,7 +1,7 @@
 ---
 abstract: 'xxHash Implementation For Perl'
 author:
-  - 'Sanko Robinson C<< <sanko@cpan.org> >>'
+  - 'Sanko Robinson <sanko@cpan.org>'
 build_requires:
   ExtUtils::CBuilder: 0
   Test::More: 0
@@ -17,7 +17,9 @@ name: Digest-xxHash
 provides:
   Digest::xxHash:
     file: lib/Digest/xxHash.pm
-    version: 0.99
+    version: 1.00
 resources:
+  bugtracker: https://github.com/sanko/digest-xxhash/issues
   license: http://www.opensource.org/licenses/bsd-license.php
-version: 0.99
+  repository: https://github.com/sanko/digest-xxhash
+version: 1.00

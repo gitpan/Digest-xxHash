@@ -4,6 +4,7 @@ use Module::Build;
 my $build = Module::Build->new(
     module_name         => 'Digest::xxHash',
     license             => 'bsd',
+    create_readme       => 1,
     configure_requires  => {
         'Module::Build' => '0.19', # xs
     },
@@ -20,6 +21,12 @@ my $build = Module::Build->new(
     c_source       => ['src'],
     xs_files       => {
         './xxHash.xs' => 'lib/Digest/xxHash.xs' 
+    },
+    meta_merge     => {
+        resources => {
+            bugtracker  => 'https://github.com/sanko/digest-xxhash/issues',
+            repository  => 'https://github.com/sanko/digest-xxhash'
+        }
     }
 );
 
