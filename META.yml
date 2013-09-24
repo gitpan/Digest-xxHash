@@ -17,9 +17,9 @@ name: Digest-xxHash
 provides:
   Digest::xxHash:
     file: lib/Digest/xxHash.pm
-    version: 1.00
+    version: 1.01
 resources:
   bugtracker: https://github.com/sanko/digest-xxhash/issues
   license: http://www.opensource.org/licenses/bsd-license.php
   repository: https://github.com/sanko/digest-xxhash
-version: 1.00
+version: 1.01
