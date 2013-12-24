@@ -4,7 +4,7 @@
       "Sanko Robinson <sanko@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132510",
+   "generated_by" : "Module::Build version 0.4202",
    "license" : [
       "bsd"
    ],
@@ -29,7 +29,7 @@
    "provides" : {
       "Digest::xxHash" : {
          "file" : "lib/Digest/xxHash.pm",
-         "version" : "1.01"
+         "version" : "1.02"
       }
    },
    "release_status" : "stable",
@@ -38,11 +38,11 @@
          "web" : "https://github.com/sanko/digest-xxhash/issues"
       },
       "license" : [
-         "http://www.opensource.org/licenses/bsd-license.php"
+         "http://opensource.org/licenses/bsd-license.php"
       ],
       "repository" : {
          "url" : "https://github.com/sanko/digest-xxhash"
       }
    },
-   "version" : "1.01"
+   "version" : "1.02"
 }
